@@ -1,0 +1,428 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ══════════════════════════════════════════
+   TIBRA BRAND — COLOR OVERRIDES
+   ══════════════════════════════════════════ */
+:root {
+  --theme-color: #ead369 !important; /* Gold */
+  --theme-color2: #136865 !important; /* Teal */
+  --theme-color3: #9c704e !important; /* Brown */
+  --theme-color4: #1a1a1a !important; /* Dark */
+  --theme-color5: #d6d6d6 !important; /* Light gray */
+
+  --title-color: #1a1a1a !important;
+  --body-color: #444444 !important;
+  --smoke-color: #f8f5f0 !important;
+  --black-color: #0d0d0d !important;
+  --black-color5: #0d0d0d !important;
+  --white-color: #ffffff !important;
+
+  /* Typography */
+  --title-font: "Barlow Condensed", "Montserrat", sans-serif !important;
+  --body-font: "Montserrat", "Jost", sans-serif !important;
+  --icon-font: "Font Awesome 6 Pro" !important;
+}
+
+/* ── Arabic font: Montserrat ── */
+[lang="ar"] body,
+[lang="ar"] .th-menu-wrapper,
+[lang="ar"] .main-menu,
+[lang="ar"] h1,
+[lang="ar"] h2,
+[lang="ar"] h3,
+[lang="ar"] h4,
+[lang="ar"] h5,
+[lang="ar"] p,
+[lang="ar"] a,
+[lang="ar"] span,
+[lang="ar"] button,
+[lang="ar"] li {
+  font-family: "Montserrat", "Cairo", sans-serif !important;
+}
+
+/* ══════════════════════════════════════════
+   TIBRA NAVBAR OVERRIDES
+   ══════════════════════════════════════════ */
+.tibra-header {
+  background: transparent;
+  transition:
+    background 0.4s ease,
+    border-color 0.4s ease;
+}
+
+.tibra-header.sticky {
+  background: rgba(13, 13, 13, 0.96) !important;
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(234, 211, 105, 0.2);
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Top header bar */
+.tibra-header .header-top {
+  background: #136865;
+  border-bottom: 1px solid rgba(234, 211, 105, 0.3);
+}
+
+.tibra-header .header-top .header-links li,
+.tibra-header .header-top .header-links a {
+  color: #d6d6d6 !important;
+}
+
+.tibra-header .header-top .header-links a:hover {
+  color: #ead369 !important;
+}
+
+.tibra-header .header-top .th-social a {
+  color: #d6d6d6 !important;
+}
+.tibra-header .header-top .th-social a:hover {
+  color: #ead369 !important;
+}
+
+/* Nav links */
+.tibra-header .main-menu > ul > li > a {
+  color: #d6d6d6 !important;
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.tibra-header .main-menu > ul > li > a:hover,
+.tibra-header .main-menu > ul > li.active > a {
+  color: #ead369 !important;
+}
+
+/* Dropdown menus */
+.tibra-header .sub-menu {
+  background: rgba(13, 13, 13, 0.97) !important;
+  border: 1px solid rgba(234, 211, 105, 0.15) !important;
+  border-radius: 4px;
+}
+
+.tibra-header .sub-menu li a {
+  color: #d6d6d6 !important;
+  font-size: 0.8rem;
+  transition:
+    color 0.3s,
+    padding-left 0.3s;
+}
+
+.tibra-header .sub-menu li a:hover {
+  color: #ead369 !important;
+  padding-left: 6px;
+}
+
+/* Translation button — same as th-btn btn-mask */
+.tibra-lang-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: transparent;
+  border: 2px solid #ead369;
+  color: #ead369 !important;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Barlow Condensed", sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.tibra-lang-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #ead369;
+  transform: translateX(-101%);
+  transition: transform 0.3s ease;
+  z-index: 0;
+}
+
+.tibra-lang-btn:hover::before {
+  transform: translateX(0);
+}
+.tibra-lang-btn:hover {
+  color: #0d0d0d !important;
+}
+.tibra-lang-btn span,
+.tibra-lang-btn i {
+  position: relative;
+  z-index: 1;
+}
+
+/* Language dropdown */
+.tibra-lang-dropdown {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  background: rgba(13, 13, 13, 0.97);
+  border: 1px solid rgba(234, 211, 105, 0.2);
+  border-radius: 4px;
+  min-width: 170px;
+  z-index: 999;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+  display: none;
+  overflow: hidden;
+}
+
+.tibra-lang-wrapper:hover .tibra-lang-dropdown,
+.tibra-lang-wrapper:focus-within .tibra-lang-dropdown {
+  display: block;
+}
+
+.tibra-lang-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 16px;
+  color: #d6d6d6 !important;
+  text-decoration: none !important;
+  font-size: 0.78rem;
+  font-weight: 500;
+  transition:
+    background 0.2s,
+    color 0.2s;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.tibra-lang-item:last-child {
+  border-bottom: none;
+}
+.tibra-lang-item:hover {
+  background: rgba(234, 211, 105, 0.1);
+  color: #ead369 !important;
+}
+.tibra-lang-item.active {
+  color: #ead369 !important;
+  background: rgba(234, 211, 105, 0.08);
+}
+
+/* Calendar + Clock icons */
+.tibra-info-icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.tibra-info-icon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #d6d6d6 !important;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+}
+
+.tibra-info-icon i {
+  color: #ead369;
+  font-size: 0.95rem;
+}
+
+/* Global theme-color replacements */
+.text-theme {
+  color: #ead369 !important;
+  padding-left: 6px;
+}
+.bg-theme {
+  background-color: #ead369 !important;
+}
+.bg-theme2 {
+  background-color: #136865 !important;
+}
+.bg-theme3 {
+  background-color: #9c704e !important;
+}
+.bg-theme4 {
+  background-color: #1a1a1a !important;
+}
+
+.th-btn,
+a.th-btn {
+  background: #ead369 !important;
+  color: #0d0d0d !important;
+  font-weight: 700;
+}
+.th-btn:hover,
+a.th-btn:hover {
+  background: #136865 !important;
+  color: #fff !important;
+}
+.th-btn.style3 {
+  background: transparent !important;
+  border: 2px solid #ead369 !important;
+  color: #ead369 !important;
+}
+.th-btn.style3:hover {
+  background: #ead369 !important;
+  color: #0d0d0d !important;
+}
+
+/* RTL support for Arabic */
+[dir="rtl"] .sub-menu {
+  left: auto;
+  right: 0;
+}
+[dir="rtl"] .tibra-lang-dropdown {
+  right: auto;
+  left: 0;
+}
+[dir="rtl"] .th-menu-wrapper {
+  left: auto;
+  right: 0;
+  transform: translateX(100%);
+}
+[dir="rtl"] .th-body-visible .th-menu-wrapper {
+  transform: translateX(0);
+}
+
+/* Preloader dismissed via JS inline styles in layout.tsx */
+
+/* ── Language Switcher old styles ── */
+.lang-switcher {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+.lang-switcher__dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgba(13, 13, 13, 0.97);
+  border: 1px solid rgba(234, 211, 105, 0.2);
+  border-radius: 4px;
+  min-width: 150px;
+  z-index: 999;
+  display: none;
+}
+.lang-switcher:hover .lang-switcher__dropdown {
+  display: block;
+}
+.lang-switcher__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  font-size: 13px;
+  color: #d6d6d6;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.lang-switcher__item:hover {
+  background: rgba(234, 211, 105, 0.1);
+  color: #ead369;
+}
+.lang-switcher__item.active {
+  color: #ead369;
+  font-weight: 600;
+}
+
+/* ══════════════════════════════════════════
+   ══════════════════════════════════════════ */
+/* Mobile menu panel background */
+.th-menu-wrapper .th-menu-area {
+  background: #1a2e28;
+}
+
+/* Mobile logo centered */
+.th-menu-wrapper .mobile-logo {
+  text-align: center;
+}
+
+/* Mobile nav link hover */
+.th-mobile-menu ul li a {
+  color: #d6d6d6;
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease,
+    padding-inline-start 0.25s ease;
+  display: inline-block;
+}
+.th-mobile-menu ul li a:hover {
+  color: #ead369 !important;
+  transform: translateX(4px);
+}
+[dir="rtl"] .th-mobile-menu ul li a:hover {
+  transform: translateX(-4px);
+}
+
+/* Remove search icon from mobile nav */
+.header-button .icon-btn.searchBoxToggler {
+  display: none !important;
+}
+
+/* ── Main-menu links white on tibra green navbar ── */
+.tibra-header .main-menu > ul > li > a {
+  color: #ffffff !important;
+}
+.tibra-header .main-menu > ul > li > a:hover {
+  color: #ead369 !important;
+}
+/* Sub-menu on green bg */
+.tibra-header .main-menu .sub-menu {
+  background: rgba(20, 35, 30, 0.98) !important;
+  border: 1px solid rgba(234, 211, 105, 0.15) !important;
+}
+.tibra-header .main-menu .sub-menu li a {
+  color: #d6d6d6 !important;
+}
+.tibra-header .main-menu .sub-menu li a:hover {
+  color: #ead369 !important;
+}
+
+.img-anime-style-1 {
+  margin: auto;
+}
+
+/* ══ Floating buttons (scroll-top + WhatsApp) — responsive spacing ══ */
+:root {
+  --fab-size: 50px;
+  --fab-right: 30px;
+  --fab-gap: 14px; /* المسافة بين الزرارين */
+  --fab-bottom: 24px; /* مسافة scroll-top من تحت */
+}
+
+.scroll-top {
+  right: var(--fab-right) !important;
+  bottom: calc(var(--fab-bottom) + env(safe-area-inset-bottom, 0px)) !important;
+}
+
+.tibra-whatsapp-btn {
+  right: var(--fab-right) !important;
+  bottom: calc(
+    var(--fab-bottom) + var(--fab-size) + var(--fab-gap) +
+      env(safe-area-inset-bottom, 0px)
+  ) !important;
+  width: var(--fab-size) !important;
+  height: var(--fab-size) !important;
+}
+
+/* تابلت */
+@media (max-width: 991px) {
+  :root {
+    --fab-size: 46px;
+    --fab-right: 20px;
+    --fab-gap: 12px;
+    --fab-bottom: 18px;
+  }
+}
+
+/* موبايل */
+@media (max-width: 575px) {
+  :root {
+    --fab-size: 42px;
+    --fab-right: 14px;
+    --fab-gap: 10px;
+    --fab-bottom: 14px;
+  }
+}

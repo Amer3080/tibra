@@ -1,0 +1,573 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "b2b": "أعمال تجارية",
+    "products": "المنتجات",
+    "blog": "المدونة",
+    "contact": "تواصل معنا",
+    "history": "تاريخنا",
+    "gallery": "المعرض",
+    "testimonials": "آراء العملاء",
+    "faq": "الأسئلة الشائعة",
+    "faqs": "الأسئلة الشائعة",
+    "language": "اللغة",
+    "menu": "القائمة",
+    "menuGrid": "القائمة شبكة",
+    "menuList": "القائمة قائمة",
+    "pages": "الصفحات",
+    "shop": "المتجر",
+    "shopDetails": "تفاصيل المنتج",
+    "cart": "سلة الشراء",
+    "checkout": "إتمام الطلب",
+    "wishlist": "المفضلة",
+    "reservation": "الحجز",
+    "chef": "طهاتنا",
+    "chefDetails": "تفاصيل الطاهي",
+    "error": "صفحة الخطأ",
+    "blogDetails": "تفاصيل المقال",
+    "reserveTable": "احجز طاولة",
+    "viewDemo": "عرض النموذج"
+  },
+  "header": {
+    "address": "القاهرة، مصر",
+    "email": "info@tibrafoods.com",
+    "openingHour": "ساعات العمل: الأحد - الخميس، 9ص - 6م",
+    "phone": "+20 100 000 0000"
+  },
+  "hero": {
+    "subtitle": "أجود ما أنتجته الطبيعة",
+    "title": "تيبرا فودز",
+    "titleHighlight": "من نخلة التمر إلى يديك",
+    "description": "تُقدّم تيبرا لك أرقى التمور من أفضل المزارع في شبه الجزيرة العربية — المجدول والعجوة والصفاوي وغيرها، مُختارة بخبرة ومُوصَّلة بمحبة.",
+    "cta": "استكشف المنتجات",
+    "ctaSecondary": "قصتنا",
+    "orderBurger": "اطلب الآن",
+    "tagline": "تمور عربية فاخرة • جودة لا مثيل لها • تمور عربية فاخرة • جودة لا مثيل لها"
+  },
+  "products": {
+    "breadcrumb": "منتجاتنا",
+    "home": "الرئيسية",
+    "subtitle": "مجموعتنا",
+    "title": "أرقى أنواع التمور",
+    "titleHighlight": "مُختارة بعناية لك",
+    "description": "كل صنف مصدره منطقته الأصلية ومُختار في ذروة نضجه — من حلاوة المجدول الناعمة إلى عمق نكهة العجوة.",
+    "orderNow": "اطلب الآن →",
+    "addToCart": "أضف إلى السلة",
+    "viewDetails": "عرض التفاصيل",
+    "items": [
+      {
+        "name": "Ajwa Dates",
+        "origin": "Madinah Al-Munawwarah",
+        "badge": "Exclusive",
+        "desc": "The Prophet's ﷺ date — grown in the blessed soils of Madinah. Deep, rich flavor with extraordinary health benefits revered for centuries.",
+        "weight": "250g · 500g · 1kg",
+        "price": "From $18",
+        "img": "AJWA.png"
+      },
+      {
+        "name": "Medjool Dates",
+        "origin": "Jordan · Palestine",
+        "badge": "Best Seller",
+        "desc": "King of dates. Impressively large with a soft, caramel-like texture and natural sweetness that melts on the tongue.",
+        "weight": "500g · 1kg · 2kg",
+        "price": "From $14",
+        "img": "medjool.png"
+      },
+      {
+        "name": "Safawi Dates",
+        "origin": "Madinah Al-Munawwarah",
+        "badge": "",
+        "desc": "Dark, moist and mildly sweet — Safawi dates have a soft, fudgy texture with a subtly complex flavor unique to Madinah.",
+        "weight": "500g · 1kg",
+        "price": "From $12",
+        "img": "SAFAWI.png"
+      },
+      {
+        "name": "Barni Dates",
+        "origin": "Al-Qassim, Saudi Arabia",
+        "badge": "",
+        "desc": "Celebrated for their golden color and honey-like sweetness. Barni dates are a treasured variety known for their energy-giving properties.",
+        "weight": "500g · 1kg",
+        "price": "From $10",
+        "img": "BARNI.png"
+      },
+      {
+        "name": "Mabroom Dates",
+        "origin": "Madinah Al-Munawwarah",
+        "badge": "",
+        "desc": "Slender and elegant with a firm texture and semi-dry character. Mabroom dates offer a sophisticated, less-sweet experience.",
+        "weight": "500g · 1kg",
+        "price": "From $13",
+        "img": "MABROOM.png"
+      },
+      {
+        "name": "Sagai Dates",
+        "origin": "Al-Qassim, Saudi Arabia",
+        "badge": "",
+        "desc": "Distinctive two-toned dates with a dry, crinkled tip and a soft, moist base. Naturally sweet with a light, delicate flavor.",
+        "weight": "500g · 1kg",
+        "price": "From $11",
+        "img": "SAGAI.png"
+      },
+      {
+        "name": "Khudri Dates",
+        "origin": "Madinah, Saudi Arabia",
+        "badge": "",
+        "desc": "Medium-sized with a wrinkled dark-brown skin. Khudri dates are mildly sweet with a chewy texture — a beloved everyday variety.",
+        "weight": "1kg · 2kg · 5kg",
+        "price": "From $9"
+      },
+      {
+        "name": "Rutab Dates",
+        "origin": "Various Regions",
+        "badge": "Seasonal",
+        "desc": "Freshly ripened, soft and juicy — Rutab dates are available only in season. A rare, luxurious experience with intense natural sweetness.",
+        "weight": "500g · 1kg",
+        "price": "From $16",
+        "img": "RUTAB.png"
+      },
+      {
+        "name": "Maftel Dates",
+        "origin": "Libya · North Africa",
+        "badge": "",
+        "desc": "Uniquely soft with an amber, honey-colored flesh. Maftel dates are prized for their melt-in-the-mouth texture and rich, sweet flavor.",
+        "weight": "500g · 1kg",
+        "price": "From $15",
+        "img": "Maftel.png"
+      }
+    ]
+  },
+  "footer": {
+    "usefulLinks": "روابط مفيدة",
+    "favoriteMenus": "المنتجات المفضلة",
+    "openText": "نحن مفتوحون الآن!",
+    "openingHours1": "ساعات العمل: 8:00 صباحاً حتى 10:00 مساءً",
+    "openingHours2": "ساعات العمل: 8:00 صباحاً حتى 10:00 مساءً",
+    "links": {
+      "home": "الرئيسية",
+      "history": "تاريخنا",
+      "services": "خدماتنا",
+      "favoritePlace": "المكان المفضل",
+      "contact": "تواصل معنا",
+      "privacy": "سياسة الخصوصية"
+    },
+    "menus": {
+      "burgers": "العجوة",
+      "crispy": "المجدول",
+      "breakfast": "الصفاوي",
+      "desserts": "البرني",
+      "kids": "المبروم",
+      "beverages": "السجاعي"
+    },
+    "copyright": "حقوق النشر © 2026 تيبرا فودز. جميع الحقوق محفوظة.",
+    "terms": "الشروط والأحكام",
+    "support": "سياسة الدعم",
+    "promiseTitle": "وعدنا لك",
+    "promise1": "100% طبيعي — بلا مواد حافظة أو إضافات",
+    "promise2": "مُنتقى يدوياً عند ذروة النضج",
+    "promise3": "توصيل إلى أكثر من 40 دولة حول العالم",
+    "promise4": "معتمد حلال وفق معايير ISO"
+  },
+  "comingSoon": {
+    "word_one": "save up to ",
+    "word_two": " off ",
+    "per": " 50% ",
+    "offer": "Limited Time Offer",
+    "title-one": "Super",
+    "title-two": "Dates",
+    "coming_title": "AJWA"
+  },
+  "Team": {
+    "breadcrumb": "فريقنا",
+    "home": "الرئيسية",
+    "subtitle": "تعرف على ",
+    "subtitle_team": "فريقنا",
+    "title": "الخبراء المتحمسون وراء تمور تيبرا الفاخرة",
+    "titleHighlight": "فريقنا"
+  },
+  "site": {
+    "name": "تيبرا",
+    "tagline": "تمور عربية فاخرة",
+    "description": "من قلب شبه الجزيرة العربية — أجود التمور، مُختارة بعناية ومُوصَّلة إلى بابك."
+  },
+  "preloader": {
+    "cancel": "إلغاء التحميل"
+  },
+  "search": {
+    "placeholder": "عن ماذا تبحث؟"
+  },
+  "cart": {
+    "title": "سلة الشراء",
+    "subtotal": "المجموع الفرعي:",
+    "viewCart": "عرض السلة",
+    "checkout": "إتمام الطلب"
+  },
+  "about": {
+    "breadcrumb": "من نحن",
+    "home": "الرئيسية",
+    "subtitle": "قصتنا",
+    "title": "جذور في التراث، رقي في الحاضر",
+    "titleHighlight": "قصتنا",
+    "body1": "وُلدت تيبرا من حب عميق لنخلة التمر العربية — إحدى أقدم الأشجار وأكثرها تبجيلاً في العالم. نؤمن بأن التمرة الاستثنائية حقاً هي أكثر من مجرد ثمرة؛ إنها حكاية أرض وموسم وحرفة توارثتها الأجيال.",
+    "body2": "من التربة البركانية للمدينة المنورة التي تُنبت العجوة، إلى مزارع القصيم المشمسة ووديان الأردن التي تُنتج أفضل أنواع المجدول — كل صنف نجلبه يحمل طابعه الفريد وإرثه الخاص.",
+    "owner": "فريق تأسيس تيبرا",
+    "ownerTitle": "أمناء التمور الفاخرة",
+    "cta": "استكشف منتجاتنا",
+    "features": [
+      {
+        "title": "اختيار يدوي دقيق",
+        "text": "كل تمرة تُقيَّم بشكل فردي من حيث الجودة والحجم والنضج والطعم قبل أن تصل إلى يديك."
+      },
+      {
+        "title": "100% طبيعي",
+        "text": "بلا مواد حافظة، ولا إضافات اصطناعية — تمور خالصة وأصيلة كما أرادتها الطبيعة."
+      },
+      {
+        "title": "توصيل عالمي",
+        "text": "نشحن إلى أكثر من 40 دولة لضمان وصول تمور تيبرا الفاخرة إليك طازجة أينما كنت."
+      }
+    ],
+    "process": [
+      {
+        "num": "01",
+        "title": "المصدر من أفضل المزارع",
+        "text": "نتشارك مباشرةً مع مزارعين موثوقين عبر المملكة العربية السعودية والأردن وما وراءهما لنجلب فقط أرقى الأصناف كل موسم."
+      },
+      {
+        "num": "02",
+        "title": "الانتقاء اليدوي وفحص الجودة",
+        "text": "تُنتقى كل تمرة بعناية ويفحصها خبراؤنا لضمان استيفائها معايير تيبرا الصارمة للطزاجة والجودة."
+      },
+      {
+        "num": "03",
+        "title": "التعبئة والتسليم بعناية",
+        "text": "معبأة في تغليف فاخر صديق للبيئة وتُشحن بسرعة — لتصل كل تمرة تيبرا بحالة مثالية كيوم قطفها."
+      }
+    ],
+    "history": [
+      {
+        "year": "2018",
+        "title": "بداية الرؤية",
+        "text": "تأسست تيبرا بمهمة واحدة: مشاركة أجود التمور العربية مع العالم، تكريماً لإرث زراعة التمور الذي امتد لقرون."
+      },
+      {
+        "year": "2020",
+        "title": "توسيع شراكاتنا",
+        "text": "أقمنا شراكات مباشرة مع 15 مزرعة فاخرة في المملكة والأردن ومصر، وحصلنا على وصول حصري لأندر الأصناف."
+      },
+      {
+        "year": "2024",
+        "title": "إلى العالمية",
+        "text": "اليوم، تُوصّل تيبرا تمورها إلى أكثر من 40 دولة حول العالم — تُحضر نكهة أثمن التمور العربية إلى موائد كل مكان."
+      }
+    ],
+    "stat1": "9+",
+    "stat1Label": "أنواع التمور",
+    "stat2": "40+",
+    "stat2Label": "دولة نخدمها",
+    "stat3": "50+",
+    "stat3Label": "مزارع شريكة",
+    "stat4": "100%",
+    "stat4Label": "طبيعي وخالص"
+  },
+  "contact": {
+    "breadcrumb": "تواصل معنا",
+    "home": "الرئيسية",
+    "title": "تواصل معنا",
+    "subtitle": "معلومات التواصل",
+    "description": "يسعدنا سماع منك. أرسل لنا رسالة وسنرد في أقرب وقت.",
+    "address": "العنوان",
+    "addressLine": "القاهرة، مصر",
+    "phone": "معلومات الاتصال",
+    "phoneLine1": "موبايل: 0000 000 100 20+",
+    "phoneLine2": "البريد: info@tibrafoods.com",
+    "hours": "ساعات العمل",
+    "hoursLine1": "الأحد - الخميس: 9:00 ص - 6:00 م",
+    "hoursLine2": "الجمعة - السبت: مغلق",
+    "name": "اسمك",
+    "email": "بريدك الإلكتروني",
+    "service": "اختر الخدمة",
+    "message": "اكتب رسالتك...",
+    "send": "أرسل الرسالة",
+    "sending": "جاري الإرسال...",
+    "success": "تم إرسال رسالتك بنجاح! سنتواصل معك قريباً.",
+    "error": "فشل إرسال الرسالة. يرجى المحاولة مجدداً.",
+    "location": "موقعنا",
+    "locationSub": "تجدنا هنا"
+  },
+  "blog": {
+    "breadcrumb": "المدونة",
+    "home": "الرئيسية",
+    "subtitle": "المعرفة والرؤى",
+    "title": "من مجلة نخيل التمر ",
+    "titleHighlight": "أحدث المقالات",
+    "readMore": "اقرأ المزيد",
+    "by": "بقلم",
+    "posts": [
+      {
+        "title": "The 9 Premium Date Varieties You Need to Know",
+        "date": "March 15, 2025",
+        "author": "Tibra Team",
+        "tag": "Education",
+        "excerpt": "From the iconic Medjool to the rare Rutab — a comprehensive guide to the world's finest date varieties and what makes each one special."
+      },
+      {
+        "title": "Ajwa Dates: History, Benefits & Why They're So Precious",
+        "date": "February 28, 2025",
+        "author": "Tibra Team",
+        "tag": "Heritage",
+        "excerpt": "Grown only in the blessed city of Madinah, Ajwa dates hold a unique place in Islamic tradition and modern nutritional science alike."
+      },
+      {
+        "title": "How to Choose the Perfect Dates Gift Box",
+        "date": "February 10, 2025",
+        "author": "Tibra Team",
+        "tag": "Gifting",
+        "excerpt": "Whether it's Ramadan, Eid, a wedding or a corporate event — here's your complete guide to choosing a dates gift that truly impresses."
+      },
+      {
+        "title": "The Health Benefits of Eating Dates Daily",
+        "date": "January 22, 2025",
+        "author": "Tibra Team",
+        "tag": "Health",
+        "excerpt": "Dates are nature's perfect energy food. Rich in fiber, potassium, magnesium and antioxidants — discover why nutritionists recommend 3–5 dates a day."
+      },
+      {
+        "title": "From Farm to Your Door: Tibra's Sourcing Process",
+        "date": "January 8, 2025",
+        "author": "Tibra Team",
+        "tag": "Behind the Scenes",
+        "excerpt": "We travel to the source — Saudi Arabia, Jordan, Libya and beyond — to personally select only the finest dates of each season."
+      },
+      {
+        "title": "Medjool vs Ajwa: What's the Difference?",
+        "date": "December 20, 2024",
+        "author": "Tibra Team",
+        "tag": "Education",
+        "excerpt": "Both are premium, both are beloved — but Medjool and Ajwa are very different dates. Here's a head-to-head comparison to help you choose."
+      }
+    ]
+  },
+  "faq": {
+    "breadcrumb": "الأسئلة الشائعة",
+    "home": "الرئيسية",
+    "title": "الأسئلة الشائعة",
+    "subtitle": "أسئلة شائعة",
+    "items": [
+      {
+        "q": "ما أنواع التمور التي تقدمها تيبرا؟",
+        "a": "تقدم تيبرا مجموعة مختارة من 9 أنواع فاخرة من التمور تُجلب مباشرةً من مناطقها الأصلية، تشمل العجوة والمجدول والصفاوي والبرني والمبروم والسجاعي والخضري والرطب والمفتل."
+      },
+      {
+        "q": "هل تمور تيبرا طبيعية 100%؟",
+        "a": "نعم. جميع تمور تيبرا طبيعية تماماً، خالية من المواد الحافظة والإضافات الاصطناعية والمعالجات الكيميائية. نضمن لك تمور خالصة وأصيلة كما أرادتها الطبيعة."
+      },
+      {
+        "q": "كيف تتم عمليات الشحن الدولي؟",
+        "a": "نشحن إلى أكثر من 40 دولة حول العالم باستخدام تغليف فاخر يحافظ على الحرارة المناسبة لضمان وصول التمور طازجة وبحالة مثالية. تتفاوت أوقات التسليم حسب الوجهة."
+      },
+      {
+        "q": "ما الحد الأدنى لطلبات B2B؟",
+        "a": "بالنسبة لطلبات B2B والجملة، يبلغ الحد الأدنى 20 كغ لكل صنف. تواصل معنا مباشرةً أو استخدم نموذج الاستفسار لدينا للحصول على أسعار مخصصة."
+      },
+      {
+        "q": "كيف أحفظ التمور بعد الاستلام؟",
+        "a": "احفظ التمور في وعاء محكم الإغلاق في مكان بارد وجاف. للحفاظ عليها لفترة أطول (حتى 12 شهراً)، ضعها في الثلاجة. تجنب التعرض للرطوبة وأشعة الشمس المباشرة."
+      },
+      {
+        "q": "هل تقدمون تغليف الهدايا؟",
+        "a": "نعم! نقدم تغليفاً فاخراً للهدايا لجميع المناسبات بما في ذلك رمضان والعيد والأعراس والفعاليات المؤسسية. التغليف المخصص بالعلامة التجارية متاح لطلبات الجملة."
+      }
+    ]
+  },
+  "b2b": {
+    "breadcrumb": "B2B",
+    "home": "الرئيسية",
+    "title": "طلب عرض",
+    "titleHighlight": "سعر",
+    "subtitle": "الجملة والأعمال التجارية",
+    "description": "هل أنت تاجر تجزئة أو موزع؟ أرسل لنا بياناتك وسيتواصل فريقنا معك بعرض مخصص خلال 24 ساعة.",
+    "formTitle": "طلب عرض سعر",
+    "formSubtitle": "أخبرنا بمتطلباتك وسنعدّ لك عرضاً مخصصاً.",
+    "name": "الاسم الكامل / اسم الشركة",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف / واتساب",
+    "country": "الدولة",
+    "dateType": "نوع التمر",
+    "quantity": "الكمية المطلوبة",
+    "qty20": "20 – 50 كغ",
+    "qty50": "50 – 100 كغ",
+    "qty200": "100 – 200 كغ",
+    "qty500": "200 – 500 كغ",
+    "qtyBulk": "500 كغ+ (كميات كبيرة / حاوية)",
+    "packaging": "التغليف المفضل",
+    "packStd": "تغليف قياسي",
+    "packCustom": "تغليف مخصص بعلامتك التجارية",
+    "packBulk": "سائب (بدون تغليف)",
+    "delivery": "وجهة التسليم",
+    "message": "متطلبات أو ملاحظات إضافية...",
+    "send": "أرسل طلب العرض",
+    "sending": "جاري الإرسال...",
+    "success": "تم استلام طلبك! سيرسل فريقنا عرضاً مخصصاً خلال 24 ساعة.",
+    "error": "حدث خطأ. يرجى المحاولة مجدداً.",
+    "whatsapp": "https://wa.me/201000000000",
+    "certsTitle": "شهاداتنا",
+    "certsSubtitle": "جودة مضمونة",
+    "certsDesc": "تيبرا ملتزمة بأعلى المعايير الدولية للجودة والسلامة والامتثال الحلال.",
+    "certs": [
+      {
+        "name": "ISO 22000",
+        "body": "إدارة سلامة الغذاء",
+        "year": "2023"
+      },
+      {
+        "name": "حلال معتمد",
+        "body": "هيئة الغذاء الإسلامي",
+        "year": "2023"
+      },
+      {
+        "name": "HACCP",
+        "body": "تحليل المخاطر ونقاط التحكم",
+        "year": "2022"
+      },
+      {
+        "name": "عضوي معتمد",
+        "body": "الاعتماد العضوي الدولي",
+        "year": "2024"
+      }
+    ],
+    "features": [
+      {
+        "icon": "fa-truck-fast",
+        "title": "شحن عالمي",
+        "text": "نوصل إلى أكثر من 40 دولة بلوجستيات موثوقة."
+      },
+      {
+        "icon": "fa-boxes-stacked",
+        "title": "كميات سائبة",
+        "text": "الحد الأدنى 20 كغ مع تغليف مخصص وعلامة تجارية خاصة."
+      },
+      {
+        "icon": "fa-handshake",
+        "title": "شراكات طويلة الأمد",
+        "text": "نبني علاقات دائمة مع عملاء الجملة بشروط مرنة."
+      }
+    ]
+  },
+  "productDetails": {
+    "breadcrumb": "تفاصيل المنتج",
+    "home": "الرئيسية",
+    "orderTab": "الطلب",
+    "descriptionTab": "وصف المنتج",
+    "orderTitle": "اطلب الآن",
+    "name": "اسمك",
+    "email": "بريدك الإلكتروني",
+    "phone": "رقم هاتفك",
+    "country": "بلدك",
+    "dateType": "اختر نوع التمر",
+    "quantity": "الكمية",
+    "qty20": "20 كغ",
+    "qty50": "50 كغ",
+    "qty100": "أكثر من 100 كغ",
+    "message": "اكتب رسالتك...",
+    "send": "إرسال الطلب",
+    "sending": "جاري الإرسال...",
+    "success": "تم إرسال طلبك بنجاح! سنتواصل معك قريباً.",
+    "error": "فشل إرسال الطلب. يرجى المحاولة مجدداً.",
+    "origin": "المنشأ",
+    "weight": "الأوزان المتاحة",
+    "price": "السعر",
+    "availability": "التوفر",
+    "inStock": "متوفر",
+    "rating": "4.9 (24 تقييم)"
+  },
+  "reservation": {
+    "button": "حجز",
+    "breadcrumb": "الحجز",
+    "home": "الرئيسية"
+  },
+  "gallery": {
+    "breadcrumb": "المعرض",
+    "home": "الرئيسية",
+    "subtitle": "معرضنا",
+    "title": "استمتع بتقليد الحلاوة في",
+    "titleHighlight": "معرض التمور"
+  },
+  "testimonials": {
+    "breadcrumb": "آراء العملاء",
+    "home": "الرئيسية",
+    "subtitle": "ما يقوله عملاؤنا",
+    "title": "قصص حقيقية، محبة حقيقية",
+    "titleHighlight": "لتمور تيبرا",
+    "items": [
+      {
+        "name": "Mohamed Al-Rashid",
+        "role": "Food Blogger",
+        "text": "I have tried dates from all over the world, but Tibra's Medjool and Ajwa are on another level entirely. The freshness and quality are unmatched — these are now a permanent fixture in my home."
+      },
+      {
+        "name": "Ahmad Al-Ghamdi",
+        "role": "Health & Wellness Coach",
+        "text": "As someone who recommends dates as a daily superfood, I exclusively recommend Tibra to my clients. The purity and quality control are exceptional. You can taste the difference immediately."
+      },
+      {
+        "name": "Ali Hassan",
+        "role": "Home Baker & Chef",
+        "text": "I use Tibra dates in all my recipes and gifts. The Mabroom and Barni varieties have an incredible depth of flavor that elevates every dish. My clients always ask where I source them."
+      },
+      {
+        "name": "Hassan Whitfield",
+        "role": "Corporate Client, London",
+        "text": "We order Tibra gift boxes for our VIP clients every Ramadan and Eid. The packaging is stunning, the dates are extraordinary, and delivery to the UK is always prompt and perfect."
+      }
+    ]
+  },
+  "menuGrid": {
+    "breadcrumb": "عرض شبكي",
+    "home": "الرئيسية"
+  },
+  "menuList": {
+    "breadcrumb": "عرض قائمة",
+    "home": "الرئيسية"
+  },
+  "shop": {
+    "breadcrumb": "المتجر",
+    "home": "الرئيسية"
+  },
+  "shopDetails": {
+    "breadcrumb": "تفاصيل المنتج",
+    "home": "الرئيسية"
+  },
+  "cart_page": {
+    "breadcrumb": "سلة الشراء",
+    "home": "الرئيسية"
+  },
+  "checkout_page": {
+    "breadcrumb": "إتمام الطلب",
+    "home": "الرئيسية"
+  },
+  "wishlist": {
+    "breadcrumb": "المفضلة",
+    "home": "الرئيسية"
+  },
+  "team": {
+    "breadcrumb": "فريقنا",
+    "home": "الرئيسية"
+  },
+  "teamDetails": {
+    "breadcrumb": "تفاصيل الفريق",
+    "home": "الرئيسية"
+  },
+  "blogDetails": {
+    "breadcrumb": "تفاصيل المقال",
+    "home": "الرئيسية"
+  },
+  "error_page": {
+    "breadcrumb": "صفحة الخطأ",
+    "home": "الرئيسية",
+    "title": "404",
+    "subtitle": "الصفحة غير موجودة",
+    "btn": "العودة إلى الرئيسية"
+  }
+}

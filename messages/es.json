@@ -1,0 +1,491 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "menu": "Menú",
+    "menuGrid": "Menú Cuadrícula",
+    "menuList": "Menú Lista",
+    "pages": "Páginas",
+    "shop": "Tienda",
+    "shopDetails": "Detalles del producto",
+    "cart": "Carrito",
+    "checkout": "Pagar",
+    "wishlist": "Lista de deseos",
+    "reservation": "Reserva",
+    "chef": "Nuestros chefs",
+    "chefDetails": "Chef Details",
+    "gallery": "Galería",
+    "testimonials": "Testimonios",
+    "faq": "Preguntas frecuentes",
+    "error": "Error Page",
+    "blog": "Blog",
+    "blogDetails": "Blog Details",
+    "contact": "Contacto",
+    "reserveTable": "Reservar mesa",
+    "viewDemo": "Ver demo",
+    "products": "Productos",
+    "history": "Historia",
+    "language": "Idioma",
+    "b2b": "B2B",
+    "faqs": "FAQs"
+  },
+  "header": {
+    "address": "8502 Preston Rd. Inglewood, Maine 98380",
+    "email": "info@barab.com",
+    "openingHour": "Opening Hour: Mon to Sat - 9am to 5pm",
+    "phone": "+263 6547 9875"
+  },
+  "hero": {
+    "subtitle": "Restaurante de comida rápida",
+    "title": "Deliciosa comida rápida para hoy",
+    "orderBurger": "PEDIR TU HAMBURGUESA",
+    "tagline": "MAKE FRESH EAT REFRESH MAKE FRESH EAT REFRESH",
+    "titleHighlight": "From the Palm to Your Hands",
+    "description": "Tibra brings you the most exquisite dates from the finest farms across the Arabian Peninsula — Medjool, Ajwa, Safawi and more, selected with expertise and delivered with love.",
+    "cta": "Explore Products",
+    "ctaSecondary": "Our Story"
+  },
+  "footer": {
+    "usefulLinks": "Enlaces útiles",
+    "favoriteMenus": "Menús favoritos",
+    "openText": "¡Estamos abiertos!",
+    "openingHours1": "Opening Hours: 8:00AM To 10:00PM",
+    "openingHours2": "Opening Hours: 8:00AM To 10:00PM",
+    "links": {
+      "home": "Home",
+      "history": "Our History",
+      "services": "Our Services",
+      "favoritePlace": "Favorite Place",
+      "contact": "Contact Us",
+      "privacy": "Privacy Policy"
+    },
+    "menus": {
+      "burgers": "Burgers",
+      "crispy": "Crispy Flavors",
+      "breakfast": "Breakfast Menu",
+      "desserts": "Desserts",
+      "kids": "Kids Menus",
+      "beverages": "Beverages"
+    },
+    "copyright": "Copyright © 2025 Barab Todos los derechos reservados.",
+    "terms": "Términos y condiciones",
+    "support": "Política de soporte"
+  },
+  "preloader": {
+    "cancel": "Cancelar"
+  },
+  "search": {
+    "placeholder": "¿Qué buscas?"
+  },
+  "cart": {
+    "title": "Carrito",
+    "subtotal": "Subtotal:",
+    "viewCart": "Ver carrito",
+    "checkout": "Pagar"
+  },
+  "about": {
+    "breadcrumb": "Nosotros",
+    "home": "Home",
+    "subtitle": "Our Story",
+    "title": "Rooted in Heritage, Refined for Today",
+    "titleHighlight": "Our Story",
+    "body1": "Tibra was born from a deep love for the Arabian date palm — one of the oldest and most revered trees in the world. We believe that a truly exceptional date is more than a fruit; it is a story of land, season, and craftsmanship passed down through generations.",
+    "body2": "From the volcanic soils of Madinah that nurture Ajwa, to the sun-drenched farms of Al-Qassim and the Jordanian valleys that produce the finest Medjool — every variety we source carries its own unique character and heritage.",
+    "owner": "Tibra Founding Team",
+    "ownerTitle": "Curators of Premium Dates",
+    "cta": "Explore Our Products",
+    "features": [
+      {
+        "title": "Handpicked Selection",
+        "text": "Every date is individually assessed for quality, size, ripeness and taste before it reaches your hands."
+      },
+      {
+        "title": "100% Natural",
+        "text": "No preservatives, no artificial additives — just pure, authentic dates exactly as nature intended."
+      },
+      {
+        "title": "Worldwide Delivery",
+        "text": "We ship to over 40 countries, ensuring Tibra's premium dates reach you fresh wherever you are."
+      }
+    ],
+    "process": [
+      {
+        "num": "01",
+        "title": "Source from the Finest Farms",
+        "text": "We partner directly with trusted growers across Saudi Arabia, Jordan and beyond to source only the finest varieties each season."
+      },
+      {
+        "num": "02",
+        "title": "Handpick & Quality Check",
+        "text": "Each date is carefully handpicked and inspected by our experts to ensure it meets Tibra's strict standards of freshness and quality."
+      },
+      {
+        "num": "03",
+        "title": "Pack & Deliver with Care",
+        "text": "Packed in premium, eco-conscious packaging and shipped swiftly — so every Tibra date arrives as perfect as the day it was picked."
+      }
+    ],
+    "history": [
+      {
+        "year": "2018",
+        "title": "The Vision Begins",
+        "text": "Tibra was founded with a single mission: to share the finest Arabian dates with the world, honoring centuries of date-farming heritage."
+      },
+      {
+        "year": "2020",
+        "title": "Expanding Our Farms",
+        "text": "We forged direct partnerships with 15 premium farms across Saudi Arabia, Jordan and Egypt, securing exclusive access to the rarest varieties."
+      },
+      {
+        "year": "2024",
+        "title": "Going Global",
+        "text": "Today Tibra delivers to over 40 countries worldwide — bringing the taste of Arabia's most prized dates to tables across the globe."
+      }
+    ],
+    "stat1": "9+",
+    "stat1Label": "Date Varieties",
+    "stat2": "40+",
+    "stat2Label": "Countries Served",
+    "stat3": "50+",
+    "stat3Label": "Partner Farms",
+    "stat4": "100%",
+    "stat4Label": "Natural & Pure"
+  },
+  "contact": {
+    "breadcrumb": "Contacto",
+    "home": "Home",
+    "title": "Get In Touch",
+    "subtitle": "Contact Information",
+    "description": "We would love to hear from you. Send us a message and we will respond as soon as possible.",
+    "address": "Address",
+    "addressLine": "Cairo, Egypt",
+    "phone": "Contact Info",
+    "phoneLine1": "Mobile: +20 100 000 0000",
+    "phoneLine2": "Email: info@tibrafoods.com",
+    "hours": "Opening Hours",
+    "hoursLine1": "Sunday - Thursday: 9:00 AM - 6:00 PM",
+    "hoursLine2": "Friday - Saturday: Closed",
+    "name": "Your Name",
+    "email": "Your Email",
+    "service": "Select Service",
+    "message": "Write Message...",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully! We will contact you soon.",
+    "error": "Failed to send message. Please try again.",
+    "location": "Our Location",
+    "locationSub": "Find Us"
+  },
+  "blog": {
+    "breadcrumb": "Blog",
+    "home": "Home",
+    "subtitle": "Knowledge & Insights",
+    "title": "From Our Date Palm Journal ",
+    "titleHighlight": "Latest Articles",
+    "readMore": "Read More",
+    "by": "By",
+    "posts": [
+      {
+        "title": "The 9 Premium Date Varieties You Need to Know",
+        "date": "March 15, 2025",
+        "author": "Tibra Team",
+        "tag": "Education",
+        "excerpt": "From the iconic Medjool to the rare Rutab — a comprehensive guide to the world's finest date varieties and what makes each one special."
+      },
+      {
+        "title": "Ajwa Dates: History, Benefits & Why They're So Precious",
+        "date": "February 28, 2025",
+        "author": "Tibra Team",
+        "tag": "Heritage",
+        "excerpt": "Grown only in the blessed city of Madinah, Ajwa dates hold a unique place in Islamic tradition and modern nutritional science alike."
+      },
+      {
+        "title": "How to Choose the Perfect Dates Gift Box",
+        "date": "February 10, 2025",
+        "author": "Tibra Team",
+        "tag": "Gifting",
+        "excerpt": "Whether it's Ramadan, Eid, a wedding or a corporate event — here's your complete guide to choosing a dates gift that truly impresses."
+      },
+      {
+        "title": "The Health Benefits of Eating Dates Daily",
+        "date": "January 22, 2025",
+        "author": "Tibra Team",
+        "tag": "Health",
+        "excerpt": "Dates are nature's perfect energy food. Rich in fiber, potassium, magnesium and antioxidants — discover why nutritionists recommend 3–5 dates a day."
+      },
+      {
+        "title": "From Farm to Your Door: Tibra's Sourcing Process",
+        "date": "January 8, 2025",
+        "author": "Tibra Team",
+        "tag": "Behind the Scenes",
+        "excerpt": "We travel to the source — Saudi Arabia, Jordan, Libya and beyond — to personally select only the finest dates of each season."
+      },
+      {
+        "title": "Medjool vs Ajwa: What's the Difference?",
+        "date": "December 20, 2024",
+        "author": "Tibra Team",
+        "tag": "Education",
+        "excerpt": "Both are premium, both are beloved — but Medjool and Ajwa are very different dates. Here's a head-to-head comparison to help you choose."
+      }
+    ]
+  },
+  "faq": {
+    "breadcrumb": "Preguntas frecuentes",
+    "home": "Home",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Common Questions",
+    "items": [
+      {
+        "q": "What types of dates does Tibra offer?",
+        "a": "Tibra offers a premium selection of 9 date varieties sourced directly from their native regions, including Ajwa, Medjool, Safawi, Barni, Mabroom, Sagai, Khudri, Rutab, and Maftel dates."
+      },
+      {
+        "q": "Are Tibra dates 100% natural?",
+        "a": "Yes. All Tibra dates are completely natural with no preservatives, artificial additives, or chemical treatments. We ensure pure, authentic dates exactly as nature intended."
+      },
+      {
+        "q": "How do you ship internationally?",
+        "a": "We ship to over 40 countries worldwide using premium, temperature-controlled packaging to ensure dates arrive fresh and in perfect condition. Delivery times vary by destination."
+      },
+      {
+        "q": "What is your minimum order quantity for B2B?",
+        "a": "For B2B and wholesale orders, our minimum order is 20 kg per variety. Please contact us directly or use our B2B inquiry form for custom pricing and bulk availability."
+      },
+      {
+        "q": "How should I store dates after receiving them?",
+        "a": "Store dates in an airtight container in a cool, dry place. For extended freshness (up to 12 months), refrigerate them. Avoid exposure to moisture and direct sunlight."
+      },
+      {
+        "q": "Do you offer gift packaging?",
+        "a": "Yes! We offer premium gift packaging for all occasions including Ramadan, Eid, weddings, and corporate events. Customized branding is available for bulk B2B orders."
+      }
+    ]
+  },
+  "gallery": {
+    "breadcrumb": "Galería",
+    "home": "Home",
+    "subtitle": "Our Gallery",
+    "title": "Taste the Sweet Tradition in Our",
+    "titleHighlight": "Dates Gallery"
+  },
+  "testimonials": {
+    "breadcrumb": "Testimonios",
+    "home": "Home",
+    "subtitle": "What Our Customers Say",
+    "title": "Real Stories, Real Love",
+    "titleHighlight": "for Tibra Dates",
+    "items": [
+      {
+        "name": "Mohamed Al-Rashid",
+        "role": "Food Blogger",
+        "text": "I have tried dates from all over the world, but Tibra's Medjool and Ajwa are on another level entirely. The freshness and quality are unmatched — these are now a permanent fixture in my home."
+      },
+      {
+        "name": "Ahmad Al-Ghamdi",
+        "role": "Health & Wellness Coach",
+        "text": "As someone who recommends dates as a daily superfood, I exclusively recommend Tibra to my clients. The purity and quality control are exceptional. You can taste the difference immediately."
+      },
+      {
+        "name": "Ali Hassan",
+        "role": "Home Baker & Chef",
+        "text": "I use Tibra dates in all my recipes and gifts. The Mabroom and Barni varieties have an incredible depth of flavor that elevates every dish. My clients always ask where I source them."
+      },
+      {
+        "name": "Hassan Whitfield",
+        "role": "Corporate Client, London",
+        "text": "We order Tibra gift boxes for our VIP clients every Ramadan and Eid. The packaging is stunning, the dates are extraordinary, and delivery to the UK is always prompt and perfect."
+      }
+    ]
+  },
+  "reservation": {
+    "breadcrumb": "Reserva",
+    "home": "Home",
+    "button": "Reserva"
+  },
+  "menuGrid": {
+    "breadcrumb": "Menu Grid View",
+    "home": "Home"
+  },
+  "menuList": {
+    "breadcrumb": "Menu List View",
+    "home": "Home"
+  },
+  "shop": {
+    "breadcrumb": "Shop",
+    "home": "Home"
+  },
+  "shopDetails": {
+    "breadcrumb": "Shop Details",
+    "home": "Home"
+  },
+  "cart_page": {
+    "breadcrumb": "Cart Page",
+    "home": "Home"
+  },
+  "checkout_page": {
+    "breadcrumb": "Checkout",
+    "home": "Home"
+  },
+  "wishlist": {
+    "breadcrumb": "Wishlist",
+    "home": "Home"
+  },
+  "team": {
+    "breadcrumb": "Our Chef",
+    "home": "Home"
+  },
+  "teamDetails": {
+    "breadcrumb": "Chef Details",
+    "home": "Home"
+  },
+  "blogDetails": {
+    "breadcrumb": "Blog Details",
+    "home": "Home"
+  },
+  "error_page": {
+    "breadcrumb": "Error Page",
+    "home": "Home",
+    "title": "404",
+    "subtitle": "Página no encontrada",
+    "btn": "Volver al inicio"
+  },
+  "b2b": {
+    "breadcrumb": "B2B",
+    "home": "Home",
+    "title": "Business to Business",
+    "subtitle": "Partner with Tibra"
+  },
+  "productDetails": {
+    "breadcrumb": "Product Details",
+    "home": "Home",
+    "orderTab": "Order",
+    "descriptionTab": "Product Description",
+    "orderTitle": "Make Your Order Now",
+    "name": "Your Name",
+    "email": "Your Email",
+    "phone": "Your Phone Number",
+    "country": "Your Country",
+    "dateType": "Select Type of Dates",
+    "quantity": "Quantity",
+    "qty20": "20 Kg",
+    "qty50": "50 Kg",
+    "qty100": "More than 100 Kg",
+    "message": "Write Message...",
+    "send": "Send Order",
+    "sending": "Sending...",
+    "success": "Your order has been sent successfully! We will contact you soon.",
+    "error": "Failed to send order. Please try again.",
+    "origin": "Origin",
+    "weight": "Available Weights",
+    "price": "Price",
+    "availability": "Availability",
+    "inStock": "In Stock",
+    "rating": "4.9 (24 Reviews)"
+  },
+  "products": {
+    "breadcrumb": "Our Products",
+    "home": "Home",
+    "subtitle": "Our Collection",
+    "title": "Premium Date Varieties",
+    "titleHighlight": "Handpicked for You",
+    "description": "Each variety is sourced directly from its native region and selected at peak ripeness — from the soft sweetness of Medjool to the rich depth of Ajwa.",
+    "orderNow": "Order Now →",
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details",
+    "items": [
+      {
+        "name": "Ajwa Dates",
+        "origin": "Madinah Al-Munawwarah",
+        "badge": "Exclusive",
+        "desc": "The Prophet's ﷺ date — grown in the blessed soils of Madinah. Deep, rich flavor with extraordinary health benefits revered for centuries.",
+        "weight": "250g · 500g · 1kg",
+        "price": "From $18",
+        "img": "AJWA.png"
+      },
+      {
+        "name": "Medjool Dates",
+        "origin": "Jordan · Palestine",
+        "badge": "Best Seller",
+        "desc": "King of dates. Impressively large with a soft, caramel-like texture and natural sweetness that melts on the tongue.",
+        "weight": "500g · 1kg · 2kg",
+        "price": "From $14",
+        "img": "medjool.png"
+      },
+      {
+        "name": "Safawi Dates",
+        "origin": "Madinah Al-Munawwarah",
+        "badge": "",
+        "desc": "Dark, moist and mildly sweet — Safawi dates have a soft, fudgy texture with a subtly complex flavor unique to Madinah.",
+        "weight": "500g · 1kg",
+        "price": "From $12",
+        "img": "SAFAWI.png"
+      },
+      {
+        "name": "Barni Dates",
+        "origin": "Al-Qassim, Saudi Arabia",
+        "badge": "",
+        "desc": "Celebrated for their golden color and honey-like sweetness. Barni dates are a treasured variety known for their energy-giving properties.",
+        "weight": "500g · 1kg",
+        "price": "From $10",
+        "img": "BARNI.png"
+      },
+      {
+        "name": "Mabroom Dates",
+        "origin": "Madinah Al-Munawwarah",
+        "badge": "",
+        "desc": "Slender and elegant with a firm texture and semi-dry character. Mabroom dates offer a sophisticated, less-sweet experience.",
+        "weight": "500g · 1kg",
+        "price": "From $13",
+        "img": "MABROOM.png"
+      },
+      {
+        "name": "Sagai Dates",
+        "origin": "Al-Qassim, Saudi Arabia",
+        "badge": "",
+        "desc": "Distinctive two-toned dates with a dry, crinkled tip and a soft, moist base. Naturally sweet with a light, delicate flavor.",
+        "weight": "500g · 1kg",
+        "price": "From $11",
+        "img": "SAGAI.png"
+      },
+      {
+        "name": "Khudri Dates",
+        "origin": "Madinah, Saudi Arabia",
+        "badge": "",
+        "desc": "Medium-sized with a wrinkled dark-brown skin. Khudri dates are mildly sweet with a chewy texture — a beloved everyday variety.",
+        "weight": "1kg · 2kg · 5kg",
+        "price": "From $9"
+      },
+      {
+        "name": "Rutab Dates",
+        "origin": "Various Regions",
+        "badge": "Seasonal",
+        "desc": "Freshly ripened, soft and juicy — Rutab dates are available only in season. A rare, luxurious experience with intense natural sweetness.",
+        "weight": "500g · 1kg",
+        "price": "From $16",
+        "img": "RUTAB.png"
+      },
+      {
+        "name": "Maftel Dates",
+        "origin": "Libya · North Africa",
+        "badge": "",
+        "desc": "Uniquely soft with an amber, honey-colored flesh. Maftel dates are prized for their melt-in-the-mouth texture and rich, sweet flavor.",
+        "weight": "500g · 1kg",
+        "price": "From $15",
+        "img": "Maftel.png"
+      }
+    ]
+  },
+  "site": {
+    "name": "Tibra",
+    "tagline": "Premium Arabian Dates",
+    "description": "From the heart of the Arabian Peninsula — the finest dates, handpicked with care and delivered to your door."
+  },
+  "Team": {
+    "breadcrumb": "Our Team",
+    "home": "Home",
+    "subtitle": "Meet Our Expert ",
+    "subtitle_team": "Team",
+    "title": "The Passionate Experts Behind Tibra's Premium Dates",
+    "titleHighlight": "Our Team"
+  }
+}
