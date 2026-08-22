@@ -393,6 +393,8 @@ a.th-btn:hover {
 }
 
 .scroll-top {
+  width: var(--fab-size) !important;
+  height: var(--fab-size) !important;
   right: var(--fab-right) !important;
   bottom: calc(var(--fab-bottom) + env(safe-area-inset-bottom, 0px)) !important;
 }
@@ -406,11 +408,27 @@ a.th-btn:hover {
   width: var(--fab-size) !important;
   height: var(--fab-size) !important;
 }
-
+.scroll-top:after,
+.scroll-top svg {
+  width: var(--fab-size) !important;
+  height: var(--fab-size) !important;
+  line-height: var(--fab-size) !important;
+}
+.tibra-whatsapp-btn {
+  width: var(--fab-size) !important;
+  height: var(--fab-size) !important;
+  line-height: var(--fab-size) !important;
+  right: var(--fab-right) !important;
+  bottom: calc(
+    var(--fab-bottom) + var(--fab-size) + var(--fab-gap) +
+      env(safe-area-inset-bottom, 0px)
+  ) !important;
+}
 /* تابلت */
 @media (max-width: 991px) {
   :root {
     --fab-size: 46px;
+    --fab-icon-size: 18px;
     --fab-right: 20px;
     --fab-gap: 12px;
     --fab-bottom: 18px;
@@ -421,8 +439,20 @@ a.th-btn:hover {
 @media (max-width: 575px) {
   :root {
     --fab-size: 42px;
+    --fab-icon-size: 16px;
     --fab-right: 14px;
     --fab-gap: 10px;
     --fab-bottom: 14px;
+  }
+}
+
+/* موبايل صغير جدًا (آيفون SE وشبهه) */
+@media (max-width: 360px) {
+  :root {
+    --fab-size: 38px;
+    --fab-icon-size: 15px;
+    --fab-right: 10px;
+    --fab-gap: 8px;
+    --fab-bottom: 10px;
   }
 }

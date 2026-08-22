@@ -266,7 +266,7 @@ export default function Footer({ locale }: { locale: Locale }) {
         style={{
           position: "fixed",
           zIndex: 9,
-          lineHeight: "50px",
+          // lineHeight: "50px",
           borderRadius: "50%",
           background: "#25D366",
           color: "#fff",

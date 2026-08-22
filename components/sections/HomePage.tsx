@@ -154,7 +154,9 @@ export default function HomePage({ locale }: { locale: Locale }) {
                   },
                 ].map((item, i) => (
                   <div key={i} className="swiper-slide">
-                    <NavLink href={`/${locale}/products/${i}`} style={{ textDecoration: "none" }}>
+                    <NavLink
+                      href={`/${locale}/products/${i}`}
+                      style={{ textDecoration: "none" }}>
                       <div className="category-card">
                         <img
                           className="cat-i-bottom"
@@ -205,6 +207,7 @@ export default function HomePage({ locale }: { locale: Locale }) {
           data-right="1%">
           <img src="/assets/img/shape/about-shape-1.2.png" alt="img" />
         </div>
+
         <div className="container">
           <div className="row gy-40 gx-80 align-items-center">
             <div className="col-xl-7 ps-xl-5">
