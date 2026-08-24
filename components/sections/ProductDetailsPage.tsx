@@ -60,9 +60,7 @@ export default function ProductDetailsPage({
   const [activeImg, setActiveImg] = useState(0);
 
   /* ── tab state (fixes the first-load bug) ── */
-  const [activeTab, setActiveTab] = useState<"order" | "description">(
-    "description",
-  );
+  const [activeTab, setActiveTab] = useState<"order" | "description">("order");
 
   /* ── order form state ── */
   const [form, setForm] = useState<OrderForm>(EMPTY_FORM);
@@ -126,6 +124,8 @@ export default function ProductDetailsPage({
             country: form.country,
             date_type: form.dateType,
             quantity: form.quantity,
+            packaging: "-",
+            delivery: "-",
             message: form.message,
             product_name: product.name,
           },

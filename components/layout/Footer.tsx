@@ -29,7 +29,7 @@ export default function Footer({ locale }: { locale: Locale }) {
     },
     {
       icon: "fa-whatsapp",
-      href: "https://wa.me/201000000000",
+      href: "https://wa.me/966537351609",
       label: "WhatsApp",
     },
     {

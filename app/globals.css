@@ -456,3 +456,18 @@ a.th-btn:hover {
     --fab-bottom: 10px;
   }
 }
+
+/* ══ Contact page: perfectly center icons inside box-icon ══ */
+.contact-feature2 .box-icon {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: normal !important; /* الغي الطريقة القديمة */
+}
+
+.contact-feature2 .box-icon img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  display: block;
+}

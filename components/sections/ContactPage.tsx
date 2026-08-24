@@ -21,23 +21,32 @@ export default function ContactPage({ locale }: { locale: Locale }) {
 
   const [form, setForm] = useState<ContactForm>(EMPTY);
   const [errors, setErrors] = useState<Partial<ContactForm>>({});
-  const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
+  const [status, setStatus] = useState<
+    "idle" | "sending" | "success" | "error"
+  >("idle");
 
   const validate = (): boolean => {
     const e: Partial<ContactForm> = {};
     if (!form.name.trim()) e.name = "Name is required";
     if (!form.email.trim()) e.email = "Email is required";
-    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) e.email = "Invalid email address";
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email))
+      e.email = "Invalid email address";
     if (!form.message.trim()) e.message = "Message is required";
-    else if (form.message.trim().length < 10) e.message = "Message must be at least 10 characters";
+    else if (form.message.trim().length < 10)
+      e.message = "Message must be at least 10 characters";
     setErrors(e);
     return Object.keys(e).length === 0;
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
+    >,
+  ) => {
     const { name, value } = e.target;
     setForm((p) => ({ ...p, [name]: value }));
-    if (errors[name as keyof ContactForm]) setErrors((p) => ({ ...p, [name]: undefined }));
+    if (errors[name as keyof ContactForm])
+      setErrors((p) => ({ ...p, [name]: undefined }));
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -56,14 +65,15 @@ export default function ContactPage({ locale }: { locale: Locale }) {
       if (emailjs) {
         await emailjs.send(
           process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "YOUR_SERVICE_ID",
-          process.env.NEXT_PUBLIC_EMAILJS_CONTACT_TEMPLATE_ID || "YOUR_CONTACT_TEMPLATE_ID",
+          process.env.NEXT_PUBLIC_EMAILJS_CONTACT_TEMPLATE_ID ||
+            "YOUR_CONTACT_TEMPLATE_ID",
           {
             from_name: form.name,
             from_email: form.email,
             service: form.service,
             message: form.message,
           },
-          process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "YOUR_PUBLIC_KEY"
+          process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "YOUR_PUBLIC_KEY",
         );
       } else {
         await new Promise((r) => setTimeout(r, 800));
@@ -75,7 +85,8 @@ export default function ContactPage({ locale }: { locale: Locale }) {
     }
   };
 
-  const ic = (f: keyof ContactForm) => `form-control${errors[f] ? " is-invalid" : ""}`;
+  const ic = (f: keyof ContactForm) =>
+    `form-control${errors[f] ? " is-invalid" : ""}`;
 
   const infoItems = [
     {
@@ -114,7 +125,8 @@ export default function ContactPage({ locale }: { locale: Locale }) {
               <div className="contact-info-wrap">
                 <div className="mb-30">
                   <h2 className="sec-title text-anime-style-2 mb-2">
-                    {t("contact.subtitle")} <span className="text-theme">{t("contact.title")}</span>
+                    {t("contact.subtitle")}{" "}
+                    <span className="text-theme">{t("contact.title")}</span>
                   </h2>
                   <p className="box-text">{t("contact.description")}</p>
                 </div>
@@ -127,7 +139,11 @@ export default function ContactPage({ locale }: { locale: Locale }) {
                       <div className="media-body">
                         <p className="contact-feature_label">{item.label}</p>
                         {item.lines.map((line, j) => (
-                          <span key={j} className="contact-feature_link d-block">{line}</span>
+                          <span
+                            key={j}
+                            className="contact-feature_link d-block">
+                            {line}
+                          </span>
                         ))}
                       </div>
                     </div>
@@ -142,7 +158,11 @@ export default function ContactPage({ locale }: { locale: Locale }) {
                     { icon: "fa-whatsapp", href: "https://wa.me" },
                     { icon: "fa-linkedin-in", href: "https://linkedin.com" },
                   ].map(({ icon, href }) => (
-                    <a key={icon} href={href} target="_blank" rel="noopener noreferrer">
+                    <a
+                      key={icon}
+                      href={href}
+                      target="_blank"
+                      rel="noopener noreferrer">
                       <i className={`fab ${icon}`} />
                     </a>
                   ))}
@@ -153,16 +173,39 @@ export default function ContactPage({ locale }: { locale: Locale }) {
             {/* Form */}
             <div className="col-xl-6">
               <div className="contact-form-v2 contact-page-form">
-                <h2 className="title mt-n3 fw-semibold mb-30">{t("contact.title")}!</h2>
+                <h2 className="title mt-n3 fw-semibold mb-30">
+                  {t("contact.title")}!
+                </h2>
 
                 {status === "success" && (
-                  <div style={{ background: "#d4edda", color: "#155724", borderRadius: 8, padding: "14px 20px", marginBottom: 20, display: "flex", alignItems: "center", gap: 8 }}>
+                  <div
+                    style={{
+                      background: "#d4edda",
+                      color: "#155724",
+                      borderRadius: 8,
+                      padding: "14px 20px",
+                      marginBottom: 20,
+                      display: "flex",
+                      alignItems: "center",
+                      gap: 8,
+                    }}>
                     <i className="far fa-check-circle" /> {t("contact.success")}
                   </div>
                 )}
                 {status === "error" && (
-                  <div style={{ background: "#f8d7da", color: "#721c24", borderRadius: 8, padding: "14px 20px", marginBottom: 20, display: "flex", alignItems: "center", gap: 8 }}>
-                    <i className="far fa-exclamation-circle" /> {t("contact.error")}
+                  <div
+                    style={{
+                      background: "#f8d7da",
+                      color: "#721c24",
+                      borderRadius: 8,
+                      padding: "14px 20px",
+                      marginBottom: 20,
+                      display: "flex",
+                      alignItems: "center",
+                      gap: 8,
+                    }}>
+                    <i className="far fa-exclamation-circle" />{" "}
+                    {t("contact.error")}
                   </div>
                 )}
 
@@ -170,21 +213,49 @@ export default function ContactPage({ locale }: { locale: Locale }) {
                   <div className="row">
                     {/* Name */}
                     <div className="form-group col-md-6">
-                      <input type="text" name="name" value={form.name} onChange={handleChange}
-                        className={ic("name")} placeholder={t("contact.name")} />
+                      <input
+                        type="text"
+                        name="name"
+                        value={form.name}
+                        onChange={handleChange}
+                        className={ic("name")}
+                        placeholder={t("contact.name")}
+                      />
                       <i className="fal fa-user" />
-                      {errors.name && <div className="invalid-feedback" style={{ display: "block" }}>{errors.name}</div>}
+                      {errors.name && (
+                        <div
+                          className="invalid-feedback"
+                          style={{ display: "block" }}>
+                          {errors.name}
+                        </div>
+                      )}
                     </div>
                     {/* Email */}
                     <div className="form-group col-md-6">
-                      <input type="email" name="email" value={form.email} onChange={handleChange}
-                        className={ic("email")} placeholder={t("contact.email")} />
+                      <input
+                        type="email"
+                        name="email"
+                        value={form.email}
+                        onChange={handleChange}
+                        className={ic("email")}
+                        placeholder={t("contact.email")}
+                      />
                       <i className="fal fa-envelope" />
-                      {errors.email && <div className="invalid-feedback" style={{ display: "block" }}>{errors.email}</div>}
+                      {errors.email && (
+                        <div
+                          className="invalid-feedback"
+                          style={{ display: "block" }}>
+                          {errors.email}
+                        </div>
+                      )}
                     </div>
                     {/* Service */}
                     <div className="form-group col-md-12 style-border">
-                      <select name="service" value={form.service} onChange={handleChange} className="form-select">
+                      <select
+                        name="service"
+                        value={form.service}
+                        onChange={handleChange}
+                        className="form-select">
                         <option value="">{t("contact.service")}</option>
                         <option value="Order Inquiry">Order Inquiry</option>
                         <option value="B2B / Wholesale">B2B / Wholesale</option>
@@ -195,17 +266,38 @@ export default function ContactPage({ locale }: { locale: Locale }) {
                     </div>
                     {/* Message */}
                     <div className="col-12 form-group">
-                      <textarea name="message" value={form.message} onChange={handleChange} rows={5}
-                        className={ic("message")} placeholder={t("contact.message")} />
+                      <textarea
+                        name="message"
+                        value={form.message}
+                        onChange={handleChange}
+                        rows={5}
+                        className={ic("message")}
+                        placeholder={t("contact.message")}
+                      />
                       <i className="fal fa-pencil" />
-                      {errors.message && <div className="invalid-feedback" style={{ display: "block" }}>{errors.message}</div>}
+                      {errors.message && (
+                        <div
+                          className="invalid-feedback"
+                          style={{ display: "block" }}>
+                          {errors.message}
+                        </div>
+                      )}
                     </div>
                     {/* Submit */}
                     <div className="form-btn col-12">
-                      <button className="th-btn style2 style-radius" type="submit" disabled={status === "sending"}>
-                        {status === "sending"
-                          ? <><i className="far fa-spinner fa-spin" style={{ marginRight: 8 }} />{t("contact.sending")}</>
-                          : t("contact.send")}
+                      <button
+                        className="th-btn style2 style-radius"
+                        type="submit"
+                        disabled={status === "sending"}>
+                        {status === "sending" ?
+                          <>
+                            <i
+                              className="far fa-spinner fa-spin"
+                              style={{ marginRight: 8 }}
+                            />
+                            {t("contact.sending")}
+                          </>
+                        : t("contact.send")}
                       </button>
                     </div>
                   </div>
@@ -217,13 +309,19 @@ export default function ContactPage({ locale }: { locale: Locale }) {
       </div>
 
       {/* Map */}
-      <section className="restaurant-location-sec-1 overflow-hidden" id="restaurant-location-sec">
+      <section
+        className="restaurant-location-sec-1 overflow-hidden"
+        id="restaurant-location-sec">
         <div className="container">
           <div className="row gy-4 justify-content-center">
             <div className="col-xl-6">
               <div className="title-area location-content">
-                <span className="sub-title style-2 text-anime-style-1">{t("contact.locationSub")}</span>
-                <h2 className="sec-title text-anime-style-2">{t("contact.location")}</h2>
+                <span className="sub-title style-2 text-anime-style-1">
+                  {t("contact.locationSub")}
+                </span>
+                <h2 className="sec-title text-anime-style-2">
+                  {t("contact.location")}
+                </h2>
                 <p className="box-text pe-xxl-5 ps-xxl-5 text-anime-style-3">
                   {t("contact.description")}
                 </p>
@@ -236,10 +334,14 @@ export default function ContactPage({ locale }: { locale: Locale }) {
                   {[
                     { icon: "fa-facebook-f", href: "https://facebook.com" },
                     { icon: "fa-instagram", href: "https://instagram.com" },
-                    { icon: "fa-whatsapp", href: "https://wa.me" },
+                    { icon: "fa-whatsapp", href: "https://wa.me/966537351609" },
                     { icon: "fa-linkedin-in", href: "https://linkedin.com" },
                   ].map(({ icon, href }) => (
-                    <a key={icon} href={href} target="_blank" rel="noopener noreferrer">
+                    <a
+                      key={icon}
+                      href={href}
+                      target="_blank"
+                      rel="noopener noreferrer">
                       <i className={`fab ${icon}`} />
                     </a>
                   ))}
@@ -248,10 +350,16 @@ export default function ContactPage({ locale }: { locale: Locale }) {
             </div>
             <div className="col-xl-6">
               <div className="map-location">
+                {" "}
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.69499046836!2d31.184592!3d30.059482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C+Egypt!5e0!3m2!1sen!2seg!4v1700000000000"
-                  width="100%" height="450"
-                  style={{ border: 0 }} loading="lazy" allowFullScreen title="Tibra Location"
+                  src="https://www.google.com/maps?q=26.297895677019007,43.87566777541837&z=13&output=embed"
+                  width="600"
+                  height="450"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Location Map"
                 />
               </div>
             </div>
