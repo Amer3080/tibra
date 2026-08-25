@@ -1644,10 +1644,11 @@
                             ch === " " ? "&nbsp;" : ch
                         }</span>`;
                     });
-                } else {
+                } else if (node.nodeType === Node.ELEMENT_NODE) {
                     // Preserve existing span or tag
                     finalHTML += node.outerHTML;
                 }
+                // Comment nodes (React hydration markers) are safely ignored
             });
 
             secTitle.innerHTML = finalHTML;
